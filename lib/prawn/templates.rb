@@ -47,7 +47,7 @@ module Prawn
         @bounding_box = @margin_box
       end
 
-      state.page.new_content_stream
+      #state.page.new_content_stream
       use_graphic_settings(true)
       forget_text_rendering_mode!
 
